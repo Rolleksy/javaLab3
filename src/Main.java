@@ -20,18 +20,25 @@ public class Main {
                 case "0":
                     System.out.println(StatusEnum.KONIEC);
                     lup = false;
+                    break;
                 case "1":
                     System.out.println(LiczbyEnum.jeden);
+                    break;
                 case "2":
                     System.out.println(LiczbyEnum.dwa);
+                    break;
                 case "3":
                     System.out.println(LiczbyEnum.trzy);
+                    break;
                 case "4":
                     System.out.println(LiczbyEnum.cztery);
+                    break;
                 case "5":
                     System.out.println(LiczbyEnum.piec);
+                    break;
                 case "6":
                     System.out.println(LiczbyEnum.szesc);
+                    break;
             }
         }
 
