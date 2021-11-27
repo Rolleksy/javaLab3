@@ -11,13 +11,15 @@ public class Main {
         enum StatusEnum {
             KONTYNUUJEMY, KONIEC;
         }
-        while (true){
+        boolean lup = true;
+        while (lup == true){
             System.out.println("Podaj cyfre od 0 do 6");
             String inpu = myScan.nextLine();
             //int liczba = (int)inpu;
             switch (inpu){
                 case "0":
                     System.out.println(StatusEnum.KONIEC);
+                    lup = false;
                 case "1":
                     System.out.println(LiczbyEnum.jeden);
                 case "2":
