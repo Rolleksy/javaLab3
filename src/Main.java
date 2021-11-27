@@ -4,6 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
 
+        enum LiczbyEnum {
+            jeden, dwa, trzy, cztery, piec, szesc;
+        }
+
         /* ćw 1 enum-y */
 
         /* zad.1
