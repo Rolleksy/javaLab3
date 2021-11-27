@@ -11,9 +11,21 @@ public class Auto {
     public void setMoc(int x){
         this.moc = x;
     }
+
     public Auto(String prod, String mod, int mocc){
         setProducent(prod);
         setModel(mod);
         setMoc(mocc);
     }
+
+    public String getProducent(){
+        return this.producent;
+    }
+    public  String getModel(){
+        return  this.model;
+    }
+    public int getMoc(){
+        return this.moc;
+    }
+
 }

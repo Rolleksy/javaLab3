@@ -1,6 +1,11 @@
 public class Main {
 
     public static void main(String[] args) {
+        Auto auto = new Auto("VW", "ID4 GTX", 320);
+
+        System.out.println(auto.getModel());
+        System.out.println(auto.getProducent());
+        System.out.println(auto.getMoc());
         /* ćw 5 Dziedziczenie */
 
         /* zad.1 Proszę wybrać dowolny temat budowania struktur klas np. samochody, dom, biblioteka, nauka, zabawki, kosmetyki, biuro podróży ... .
