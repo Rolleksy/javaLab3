@@ -6,6 +6,14 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Punkt punktA = new Punkt();
+        punktA.setXYZ(9,4,2);
+        System.out.println(punktA.roznica());
+        System.out.println(punktA.roznica(18, 2, 7));
+
+        System.out.println(punktA.getX(1));
+        System.out.println(punktA.getY(2));
+        System.out.println(punktA.getZ(4));
         /* ćw 3 klasy */
 
         /*  zad.1 - Najpierw należy uzupełnić kod w klasie Punkt.java,
