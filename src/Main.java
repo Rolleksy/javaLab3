@@ -4,8 +4,33 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Scanner myScan = new Scanner(System.in);
         enum LiczbyEnum {
             jeden, dwa, trzy, cztery, piec, szesc;
+        }
+        enum StatusEnum {
+            KONTYNUUJEMY, KONIEC;
+        }
+        while (true){
+            System.out.println("Podaj cyfre od 0 do 6");
+            String inpu = myScan.nextLine();
+            //int liczba = (int)inpu;
+            switch (inpu){
+                case "0":
+                    System.out.println(StatusEnum.KONIEC);
+                case "1":
+                    System.out.println(LiczbyEnum.jeden);
+                case "2":
+                    System.out.println(LiczbyEnum.dwa);
+                case "3":
+                    System.out.println(LiczbyEnum.trzy);
+                case "4":
+                    System.out.println(LiczbyEnum.cztery);
+                case "5":
+                    System.out.println(LiczbyEnum.piec);
+                case "6":
+                    System.out.println(LiczbyEnum.szesc);
+            }
         }
 
         /* ćw 1 enum-y */
