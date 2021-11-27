@@ -1,6 +1,12 @@
 public class Main {
 
     public static void main(String[] args) {
+        Osoba osoba = new Osoba();
+        osoba.setImie("mateusz");
+        osoba.setNazwisko("wajcheprzeloz");
+        osoba.setIndeks(12345);
+        System.out.println(osoba.podajDane());
+
         /* ćw 4 klasy */
 
         /* zad.1
@@ -29,4 +35,7 @@ public class Main {
          */
 
     }
-}
+
+
+    }
+
