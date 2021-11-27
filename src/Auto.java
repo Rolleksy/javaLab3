@@ -28,4 +28,9 @@ public class Auto {
         return this.moc;
     }
 
+    public void wypluj(){
+        System.out.println("Marka pojazdu: " + this.getProducent());
+        System.out.println("Model pojazdu: " + this.getModel());
+        System.out.println("Moc pojazdu: " + this.getMoc());
+    }
 }

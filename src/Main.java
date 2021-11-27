@@ -2,10 +2,15 @@ public class Main {
 
     public static void main(String[] args) {
         Auto auto = new Auto("VW", "ID4 GTX", 320);
+        auto.wypluj();
+        Auto auto1 = new Auto("BMW", "120i", 184);
+        auto1.wypluj();
+        Auto auto2 = new Auto("Audi", "eTron GT", 420);
+        auto2.wypluj();
+        Porow poro = new Porow();
+        System.out.println(poro.Compare(auto.getMoc(), auto1.getMoc()));
+        System.out.println(poro.Compare(auto1.getMoc(), auto2.getMoc()));
 
-        System.out.println(auto.getModel());
-        System.out.println(auto.getProducent());
-        System.out.println(auto.getMoc());
         /* ćw 5 Dziedziczenie */
 
         /* zad.1 Proszę wybrać dowolny temat budowania struktur klas np. samochody, dom, biblioteka, nauka, zabawki, kosmetyki, biuro podróży ... .
